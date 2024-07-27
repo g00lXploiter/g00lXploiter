@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", { 
         Title = "Ramzz";
-        Text = "Sorry The Script Is Patched Cuz Y'all Abusing The Script😡, I Will Fix The Script Soon🥱🥱🙁";
+        Text = "Sorry The Script Is Patched, Cuz Y'all is Abusing The Script😡, I Will Fix The Script Soon🥱🥱🙁";
         Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
     Duration = 11;
