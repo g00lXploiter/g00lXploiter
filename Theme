@@ -1,7 +1,8 @@
-local jumpscareSound = Instance.new("Sound")
-jumpscareSound.Parent = game.Workspace
-jumpscareSound.Name = "JumpscareSound"
-jumpscareSound.Volume = 99999999999
-jumpscareSound.Pitch = 1.3
-jumpscareSound.SoundId = "rbxassetid://1842241530"
-jumpscareSound:Play()
+local tubers93		= Instance.new("Sound") 	
+	tubers93.Parent		= game:GetService("Workspace") 	
+	tubers93.SoundId		= "rbxassetid://1843217953" 	
+	tubers93.Playing		= true 	
+	tubers93.Looped		= true 	
+	tubers93.Pitch      = 1 	
+	tubers93.Volume		=  10
+tubers93:play()
