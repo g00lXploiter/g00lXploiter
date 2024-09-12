@@ -1,0 +1,26 @@
+local jumpscareSound = Instance.new("Sound")
+jumpscareSound.Parent = game.Workspace
+jumpscareSound.Name = "JumpscareSound"
+jumpscareSound.Volume = 99999999999
+jumpscareSound.Pitch = 0.4
+jumpscareSound.SoundId = "rbxassetid://2050521432"
+
+local jumpscareGUI = Instance.new("ScreenGui", nil)
+jumpscareGUI.Name = "Jumpscare"
+local image = Instance.new("ImageLabel", jumpscareGUI)
+image.Name = "JumpscareImage"
+image.BackgroundColor3 = Color3.new(0, 0, 0)
+image.BorderColor3 = Color3.new(0, 0, 0)
+image.BorderSizePixel = 80
+image.Size = UDim2.new(1, 0, 1, 0)
+image.Image = "http://www.roblox.com/asset/?id=94812785380798"
+image.Active = true
+
+for i, c in pairs(game.Players:GetChildren()) do
+    local jumpscareClone = jumpscareGUI:Clone()
+    jumpscareClone.Parent = c.PlayerGui
+    jumpscareSound:Play()
+    wait(4)
+    jumpscareClone:Destroy()
+    jumpscareSound:Destroy()
+end
