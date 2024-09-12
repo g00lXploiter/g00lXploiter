@@ -1,0 +1,6 @@
+local jumpscareSound = Instance.new("Sound")
+jumpscareSound.Parent = game.Workspace
+jumpscareSound.Name = "JumpscareSound"
+jumpscareSound.Volume = 99999999999
+jumpscareSound.Pitch = 1.3
+jumpscareSound.SoundId = "rbxassetid://1842241530"
