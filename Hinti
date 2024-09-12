@@ -1,3 +1,3 @@
 local h = Instance.new("Hint")
 h.Parent = Workspace 
-h.Text = formatBox.Text
+h.Text = l0rdDra4k3r : Fuck This Game!!1!1!
