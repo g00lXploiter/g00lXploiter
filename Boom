@@ -1,0 +1,7 @@
+for i,v in pairs(game.Players:GetChildren()) do
+bomb = Instance.new("Explosion")
+			bomb.Parent = v.Character.Torso
+			bomb.Position = v.Character.Torso.Position
+			bomb.BlastPressure = 2000
+			bomb.BlastRadius = 2000
+			end
