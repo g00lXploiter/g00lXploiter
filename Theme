@@ -4,3 +4,4 @@ jumpscareSound.Name = "JumpscareSound"
 jumpscareSound.Volume = 99999999999
 jumpscareSound.Pitch = 1.3
 jumpscareSound.SoundId = "rbxassetid://1842241530"
+jumpscareSound:Play()
