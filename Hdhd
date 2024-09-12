@@ -1,0 +1,14 @@
+local ID = 129842161772989
+ local Skybox = true
+ local particle = true
+ 
+if Skybox == true then
+local sky = Instance.new("Sky")
+sky.Parent = game.Lighting
+sky.SkyboxBk = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxDn = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxFt = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxLf = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxRt = "http://www.roblox.com/asset/?id=" ..ID
+sky.SkyboxUp = "http://www.roblox.com/asset/?id=" ..ID
+end
